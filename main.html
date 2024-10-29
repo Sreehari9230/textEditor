@@ -1,0 +1,17 @@
+<button onclick="format('bold')">Bold</button>
+<button onclick="format('italic')">Italic</button>
+<button onclick="format('underline')">Underline</button>
+<div contenteditable="true" id="editor" style="border: 1px solid #ccc; padding: 10px; min-height: 200px"></div>
+
+<style>
+  #editor {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+</style>
+
+<script>
+  function format(command) {
+    document.execCommand(command, false, null);
+  }
+</script>
