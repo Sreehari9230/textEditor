@@ -1,4 +1,4 @@
-import React, { useState, ChangeEvent, TextareaHTMLAttributes } from 'react';
+import React, { useState, ChangeEvent } from 'react';
 
 const TextEditor: React.FC = () => {
 
@@ -9,13 +9,14 @@ const TextEditor: React.FC = () => {
     }
 
     return (
-        <div>
+        <div style={{   }}>
             <h2>Text Editor</h2>
-            <textarea onChange={handleTextChange} />
-            <div>
+            <textarea onChange={handleTextChange} value={text} rows={20}
+                style={{ width: '99%', padding: '10px', fontSize: '16px' }} />
+            {/*             <div>
                 <h3>Preview:</h3>
                 {text}
-            </div>
+            </div> */}
         </div>
     );
 };
