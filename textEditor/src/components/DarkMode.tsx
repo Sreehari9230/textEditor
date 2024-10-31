@@ -1,6 +1,6 @@
 import "../DarkMode.css";
 
-const DarkMode = () => {
+const DarkMode: React.FC = () => {
   return (
     <div className="toggle-theme-wrapper">
       <span>☀️</span>

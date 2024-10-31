@@ -12,7 +12,7 @@ const TextEditor: React.FC = () => {
         <div style={{   }}>
             <h2>Text Editor</h2>
             <textarea onChange={handleTextChange} value={text} rows={20}
-                style={{ width: '99%', padding: '10px', fontSize: '16px' }} />
+                style={{ width: '99%', padding: '10px', fontSize: '16px' }} /> 
             {/*             <div>
                 <h3>Preview:</h3>
                 {text}
