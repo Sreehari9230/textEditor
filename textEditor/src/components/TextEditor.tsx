@@ -1,4 +1,5 @@
 import React, { useState, ChangeEvent } from 'react';
+import './css/TextEditor.css'
 
 const TextEditor: React.FC = () => {
 

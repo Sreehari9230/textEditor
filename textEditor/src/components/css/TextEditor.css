@@ -1,0 +1,35 @@
+/* Dark mode styles for the text editor */
+body {
+    background-color: #1e1e1e;
+    color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #f5f5f5;
+    text-align: center;
+    margin: 20px 0;
+}
+
+textarea {
+    background-color: #333;
+    color: #f5f5f5;
+    border: none;
+    outline: none;
+    width: 99%;
+    padding: 10px;
+    font-size: 16px;
+    resize: none;
+}
+
+textarea::placeholder {
+    color: #aaa;
+    opacity: 0.8;
+}
+
+textarea:focus {
+    border: 1px solid #666;
+    outline: none;
+}
